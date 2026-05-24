@@ -1,4 +1,4 @@
-# Nerfies
+# UAV IT2Fuzzy Control
 
 This is the repository that contains source code for the [UAV-IT2Fuzzy-Control website](https://control-han.github.io/UAV-IT2Fuzzy-Control).
 
