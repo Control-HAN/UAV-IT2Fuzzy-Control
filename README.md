@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [UAV-IT2Fuzzy-Control website](https://control-han.github.io/UAV-IT2Fuzzy-Control).
 
 If you find Nerfies useful for your work please cite:
 ```
