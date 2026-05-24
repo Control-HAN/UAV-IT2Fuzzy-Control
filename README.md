@@ -7,7 +7,7 @@ If you find Nerfies useful for your work please cite:
 @article{park2021nerfies
   author    = {Kim, Taejin and Tak, Taewoo and Yoo, Donghan and Han, Seungyong},
   title     = {Interval Type-2 Fuzzy Attitude Controller Design for Uncertain UAVs under Hybrid Cyberattacks via a Generalized Set-Inclusion Lemma},
-  year      = {<span style="color: #005cc5;">202X</span>}
+  year      = {2026}
 }
 ```
 
