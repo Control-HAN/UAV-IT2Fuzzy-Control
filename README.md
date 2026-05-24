@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [UAV-IT2Fuzzy-Control website](https://control-han.github.io/UAV-IT2Fuzzy-Control).
 
-If you find Nerfies useful for your work please cite:
+If you find "UAV-IT2Fuzzy Control" useful for your work please cite:
 ```
 @article{park2021nerfies
   author    = {Kim, Taejin and Tak, Taewoo and Yoo, Donghan and Han, Seungyong},
