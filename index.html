@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,10 +37,21 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+  <style>
+    /* 저자 및 소속 간격 조정용 스타일 */
+    .publication-authors .author-block {
+      margin-right: 15px; 
+    }
+    .affiliation-block {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -78,26 +88,42 @@
       </div>
     </div>
   </div>
-</nav> -->
+</nav>
 
 
 <section class="hero">
   <div class="hero-body">
-    <div class="container is-max-desktop">
+    <div class="container is-max-widescreen">
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Interval Type-2 Fuzzy Attitude Controller Design for Uncertain UAVs under Hybrid Cyberattacks via a Generalized Set-Inclusion Lemma</h1>
-          <div class="is-size-5 publication-authors">
+          
+          <div class="is-size-5 publication-authors" style="margin-top: 20px;">
             <span class="author-block">
-              <a href="mailto:hansy@jbnu.ac.kr">Seungyong Han</a><sup>1</sup>
+              <a href="mailto:Taejin.Kim@inl.gov">Taejin Kim</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:ttwispy@kaeri.re.kr">Taewoo Tak</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:donghan@kaeri.re.kr">Donghan Yoo</a><sup>2,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:hansy@jbnu.ac.kr">Seungyong Han</a><sup>3,*</sup>
             </span>
           </div>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Jeonbuk National University</span>
+          <div class="is-size-5 publication-authors" style="margin-top: 15px;">
+            <span class="affiliation-block"><sup>1</sup>Idaho National Laboratory</span>
+            <span class="affiliation-block"><sup>2</sup>Korea Atomic Energy Research Institute</span>
+            <span class="affiliation-block"><sup>3</sup>Department of Mechanical System Engineering, Jeonbuk National University</span>
+          </div>
+          
+          <div class="is-size-6 publication-authors" style="margin-top: 10px; color: #666;">
+            <span class="author-block"><sup>*</sup>Corresponding Authors</span>
           </div>
 
-          <div class="publication-links" style="margin-top: 15px;">
+          <div class="publication-links" style="margin-top: 25px;">
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
@@ -143,7 +169,7 @@
 </section>
 
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline style="width: 100%; height: auto; display: block; margin: 0 auto;">
         <source src="./static/videos/drone0.mp4" type="video/mp4">
@@ -156,11 +182,11 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-10">
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justified" style="font-size: 1.25rem; line-height: 2.0;">
           <p>
             This paper presents an interval type-2 (IT2) fuzzy attitude controller for uncertain unmanned aerial vehicles (UAVs) under hybrid cyberattacks. The UAV dynamics are modeled as IT2 Takagi-Sugeno (T-S) fuzzy systems capturing bounded parametric uncertainties. The control input is stochastically corrupted by switching attacks: (i) sensor-to-controller (S2C) false-data injection distorting state information and (ii) controller-to-actuator (C2A) manipulation causing input saturation. Under the simultaneous effects of these hybrid cyberattacks and physical actuator limits, the control input is subject to nested saturation. To handle the nested saturation under the cyberattacks, a novel generalized set-inclusion (GSI) lemma is introduced. This lemma is utilized in controller design involving general nonlinear functions that satisfy sector nonlinearities. Based on the Lyapunov-Krasovskii functional (LKF) approach, linear matrix inequality (LMI) conditions are derived for controller synthesis. These conditions guarantee closed-loop stability by ensuring that the Lyapunov sublevel set remains within the admissible input bounds. Simulation results demonstrate asymptotic closed-loop stability under hybrid cyberattacks.
           </p>
@@ -171,30 +197,31 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Figures</h2>
+        <h2 class="title is-3 has-text-centered">Simulation Results</h2>
         
-        <div class="content" style="margin-top: 30px; margin-bottom: 50px;">
-          <h3 class="title is-4 has-text-centered">Figure 1</h3>
-          <iframe src="./static/images/Fig1.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 5px;">
-            This browser does not support PDFs. Please download the PDF to view it: <a href="./static/images/Fig1.pdf">Download PDF</a>.
-          </iframe>
-        </div>
-        
-        <div class="content" style="margin-bottom: 50px;">
-          <h3 class="title is-4 has-text-centered">Figure 2</h3>
-          <iframe src="./static/images/Fig2.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 5px;">
-            This browser does not support PDFs. Please download the PDF to view it: <a href="./static/images/Fig2.pdf">Download PDF</a>.
-          </iframe>
-        </div>
-        
-        <div class="content" style="margin-bottom: 50px;">
-          <h3 class="title is-4 has-text-centered">Figure 3</h3>
-          <iframe src="./static/images/Fig3.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 5px;">
-            This browser does not support PDFs. Please download the PDF to view it: <a href="./static/images/Fig3.pdf">Download PDF</a>.
-          </iframe>
+        <div class="columns is-centered is-vcentered" style="margin-top: 30px; margin-bottom: 50px;">
+          
+          <div class="column">
+            <iframe src="./static/images/Fig1.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" width="100%" height="350px" style="border: 1px solid #ddd; border-radius: 5px;">
+              <a href="./static/images/Fig1.pdf">Download PDF</a>
+            </iframe>
+          </div>
+          
+          <div class="column">
+            <iframe src="./static/images/Fig2.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" width="100%" height="350px" style="border: 1px solid #ddd; border-radius: 5px;">
+              <a href="./static/images/Fig2.pdf">Download PDF</a>
+            </iframe>
+          </div>
+          
+          <div class="column">
+            <iframe src="./static/images/Fig3.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" width="100%" height="350px" style="border: 1px solid #ddd; border-radius: 5px;">
+              <a href="./static/images/Fig3.pdf">Download PDF</a>
+            </iframe>
+          </div>
+
         </div>
 
       </div>
@@ -203,11 +230,11 @@
 </section>
 
 <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
+  <div class="container is-max-widescreen content">
     <h2 class="title">BibTeX</h2>
     <div style="background-color: #f5f5f5; padding: 30px; border-radius: 5px;">
-      <pre style="background-color: #ffffff; padding: 20px; border: none; border-radius: 0; box-shadow: none;"><code>@article{han202X,
-  author    = {Seungyong Han},
+      <pre style="background-color: #ffffff; padding: 20px; border: none; border-radius: 0; box-shadow: none;"><code>@article{kim202Xinterval,
+  author    = {Kim, Taejin and Tak, Taewoo and Yoo, Donghan and Han, Seungyong},
   title     = {Interval Type-2 Fuzzy Attitude Controller Design for Uncertain UAVs under Hybrid Cyberattacks via a Generalized Set-Inclusion Lemma},
   journal   = {Journal Name},
   year      = {202X}
@@ -232,5 +259,3 @@
 
 </body>
 </html>
-
-```
