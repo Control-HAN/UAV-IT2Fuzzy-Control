@@ -185,7 +185,14 @@
   <div class="container" style="max-width: 1280px; margin: 0 auto;">
     <div class="hero-body">
       
-      <video id="teaser" autoplay loop muted playsinline style="width: 100%; max-width: 1280px; height: auto; display: block; margin: 0 auto; background-color: transparent; pointer-events: none;">
+      <video id="teaser" autoplay loop muted playsinline 
+             style="width: 100%; 
+                    aspect-ratio: 16 / 9; 
+                    object-fit: cover; 
+                    display: block; 
+                    margin: 0 auto; 
+                    pointer-events: none;
+                    background-color: transparent;">
         <source src="./static/videos/UAV_Animation.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -193,6 +200,7 @@
       <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
         Interval Type-2 Fuzzy Attitude Control under Hybrid Cyberattacks.
       </h2>
+      
     </div>
   </div>
 </section>
