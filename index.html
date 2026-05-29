@@ -182,15 +182,14 @@
 </section>
   
 <section class="hero teaser">
-  <div class="container is-max-widescreen">
+  <div class="container" style="max-width: 1280px; margin: 0 auto;">
     <div class="hero-body">
-      <div style="width: 100%; overflow: hidden; position: relative; border-radius: 8px;">
-        
-        <video id="teaser" controls autoplay loop playsinline style="width: 100%; height: auto; display: block; margin: 0 auto; transform: scale(1.15);">
-          <source src="./static/videos/UAV_Animation.mp4" type="video/mp4">
-        </video>
-
-      </div>
+      
+      <video id="teaser" controls autoplay loop playsinline style="width: 100%; max-width: 1280px; height: auto; aspect-ratio: 1280 / 780; display: block; margin: 0 auto;">
+        <source src="./static/videos/UAV_Animation.mov" type="video/quicktime">
+        Your browser does not support the video tag.
+      </video>
+      
       <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
         Interval Type-2 Fuzzy Attitude Control under Hybrid Cyberattacks.
       </h2>
